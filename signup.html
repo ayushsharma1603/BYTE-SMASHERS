@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Interview System - Signup</title>
+    <link rel="stylesheet" href="signupstyle.css">
+</head>
+<body>
+
+    <div class="signup-container">
+        <h2>Sign Up</h2>
+        <form class="signup-form" action="/signup" method="POST">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+            
+            <!-- Role selection -->
+            <select name="role" required>
+                <option value="" disabled selected>Select Role</option>
+                <option value="candidate">Candidate</option>
+                <option value="interviewer">Interviewer</option>
+            </select>
+
+            <!-- Optional resume upload -->
+            <input type="file" name="resume" accept=".pdf,.doc,.docx" placeholder="Upload Resume (Optional)">
+
+            <!-- Submit button -->
+            <button type="submit"> <a href="login.html">.</a>Create Account</button>
+
+            <!-- Terms & Conditions -->
+            <div class="terms">
+                <input type="checkbox" name="terms" required> I agree to the <a href="#">terms and conditions</a>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

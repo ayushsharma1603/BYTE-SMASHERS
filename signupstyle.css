@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color */
+    background: url('6drdo-160130160741-thumbnail.jpg') no-repeat center center fixed;
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-container {
+    background-color: #333; /* Dark grey for the container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    width: 300px;
+
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"],
+.signup-form input[type="tel"],
+.signup-form select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #fff; /* White border */
+    background-color: #000; /* Black input background */
+    color: #fff; /* White text */
+    border-radius: 5px;
+}
+
+.signup-form input[type="file"] {
+    margin: 10px 0;
+    color: #fff; /* White text */
+}
+
+.signup-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff; /* White button */
+    color: #000; /* Black text on button */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.signup-form button:hover {
+    background-color: #ccc; /* Light grey on hover */
+    color: #000;
+}
+
+.signup-form .terms {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #fff; /* White text */
+}
+
+.signup-form a {
+    color: #fff; /* White links */
+}
+
+.signup-form a:hover {
+    text-decoration: underline;
+}
+a {
+    color: #000;
+}
