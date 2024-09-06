@@ -44,6 +44,8 @@ li a:hover{
     background-color: white;
    transition: 0.5s;
    color: black;
+   padding-top: 15px;
+   padding-bottom: 15px;
 }
 li a{
     color: white;
@@ -70,5 +72,4 @@ li a{
     cursor: pointer;
     transition: 0.25s;
     color: black;
-    
 }
