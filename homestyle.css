@@ -1,5 +1,11 @@
-.logo a{
-    text-decoration: none;
+.logo{
+   width: 300px;
+}
+.logo a img{
+    margin-top: 10px;
+    margin-left: -20px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .navdiv ul li a{
@@ -13,12 +19,12 @@
     background-color: rgb(30, 29, 29);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-left: 15px;
+    position: sticky;
 }
 .navdiv{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 .logo a{
     font-size: 35px;
@@ -72,4 +78,101 @@ li a{
     cursor: pointer;
     transition: 0.25s;
     color: black;
+}
+
+#navimg{
+    text-align: center;
+}
+#navimg img{
+    opacity: 60%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.centered-text {
+    width: 1000px;
+    margin-top: 12%;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    background-color: rgba(0, 0, 0,0.75); /* Optional background for better readability */
+    padding: 10px;
+    border-radius: 5px;
+    color: antiquewhite;
+}
+
+.centered-text:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+#logobelow{
+    display: flex;
+    justify-content: center;   
+    padding-top: 100px;
+}
+
+.logotagline div h3 p{
+    text-align: center;
+    font-size:50px;
+    background-color: rgba(0, 0, 0,0.75);
+    color: white;
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+    color: #f2f2f2;
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer a:hover {
+    color: darkgreen;
+}
+
+.logotagline p{
+    font-size: x-large;
+}
+
+.interview-button p{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.interview-button button{
+    border: none;
+    background-color: rgb(213, 37, 37);
+    position: relative;
+    top: 50px;
+    left: 26vw;
+    font-family: 'Times New Roman', Times, serif;
+    height: 200px;
+    width: 700px;
+    font-size: 60px;
+    border-radius: 100px;
+}
+
+.interview-button button:hover{
+    cursor: pointer;
+    transition: 0.75s;
+    color: whitesmoke;
+    background-color: #333;
 }
