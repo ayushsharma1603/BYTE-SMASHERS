@@ -96,12 +96,15 @@ body {
 .container {
     width: 80%;
     margin: 0 auto;
+    text-decoration-color: wheat ;
 }
-
+h1{
+    color: wheat;
+}
 
 /* About Hero Section */
 .about-hero {
-    background-color: #fdded8;
+    background-color: #3c3d37;
     text-align: center;
     padding: 80px 0;
 }
