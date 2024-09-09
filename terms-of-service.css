@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #3c3d37; /* Background color set to #3c3d37 */
+    color: white; /* Text color set to white */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white; /* Slightly lighter background for the content area */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    color: black; /* Light color for headings */
+    text-align: center;
+}
+
+h2{
+    color: #4CAF50;
+}
+
+p, ul {
+    color: black; /* Slightly lighter color for text */
+}
+
+ul {
+    margin-left: 20px;
+}
+
+a {
+    color: #4CAF50; /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
