@@ -36,7 +36,7 @@
 /* #navimg{
     height: 1000px;
     background: url('photo-collage.png.png') no-repeat center center fixed;
-    background-size: cover;
+    background-size: contain;
     overflow: hidden;
     
 } */
@@ -165,22 +165,23 @@ footer a:hover {
 
 }
 
-.interview-button button{
+/* .interview-button button{
     border: none;
-    background-color: rgb(213, 37, 37);
+    background-color: rgb(53, 84, 168);
     position: relative;
     top: 50px;
     left: 26vw;
     font-family: 'Times New Roman', Times, serif;
-    height: 200px;
-    width: 700px;
-    font-size: 60px;
+    height: 40px;
+    width: 110px;
+    font-size: 10px;
     border-radius: 100px;
+    color: aliceblue;
 }
 
 .interview-button button:hover{
     cursor: pointer;
     transition: 0.75s;
-    color: whitesmoke;
-    background-color: #333;
-}
+    /* color: whitesmoke; */
+    /* background-color: #340e9c;
+} */ 
