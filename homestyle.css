@@ -185,3 +185,8 @@ footer a:hover {
     /* color: whitesmoke; */
     /* background-color: #340e9c;
 } */ 
+
+#videolink{
+    display: flex;
+    justify-content: center;
+}
