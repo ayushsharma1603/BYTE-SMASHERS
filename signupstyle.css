@@ -1,9 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #000; /* Black background */
+    background-color: #464444; /* Black background */
     color: #fff; /* White text color */
-    background: url('6drdo-160130160741-thumbnail.jpg') no-repeat center center fixed;
-    background-size:cover;
+    /* background: url('6drdo-160130160741-thumbnail.jpg') no-repeat center center fixed;
+    background-size:cover; */
     margin: 0;
     padding: 0;
     display: flex;
