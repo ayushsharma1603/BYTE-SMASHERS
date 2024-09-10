@@ -33,6 +33,14 @@
     margin-left: 15px;
 }
 
+/* #navimg{
+    height: 1000px;
+    background: url('photo-collage.png.png') no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+    
+} */
+
 .logo a:hover{
    background-color: white;
    transition: 0.5s;
