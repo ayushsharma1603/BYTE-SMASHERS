@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Portal</title>
+    <link rel="stylesheet" href="interviewPortalstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <!-- Side Drawer -->
+    <div class="side-drawer" id="sideDrawer">
+        <h2>Your Profile</h2>
+        <ul>
+         
+            <li> <i class="fa-solid fa-user"></i> <a href="#">Daniyal ali</a></li>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="#">Upcoming Interviews</a></li>
+            <li><a href="#">Past Interviews</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Header -->
+        <header>
+            <button class="menu-btn" onclick="toggleDrawer()">☰</button>
+            <h1>Interview Portal</h1>
+        </header>
+
+        <!-- Job Listings -->
+        <div class="job-listings">
+            <div class="job">
+                <h3>Software Engineer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat...</p>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <div class="job">
+                <h3>Data Scientist</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat...</p>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <div class="job">
+                <h3>UI/UX Designer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat...</p>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <!-- Add more job listings as needed -->
+            <div class="job">
+                <h3>Software Engineer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat...</p>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <div class="job">
+                <h3>Data Scientist</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat...</p>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <div class="job">
+                <h3>UI/UX Designer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat...</p>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            
+            
+        </div>
+    </div>
+
+    <script>
+        function toggleDrawer() {
+            const drawer = document.getElementById('sideDrawer');
+            drawer.classList.toggle('open');
+        }
+    </script>
+</body>
+</html>
